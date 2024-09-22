@@ -47,7 +47,7 @@ function closeBigImg() {
           :key="photo.file">
           <img
             loading="lazy"
-            :src="`/galleryFile/thumbs/${photo.file}`"
+            :src="`/galleryFile/thumbs/${photo.file}.jpg`"
             :alt="photo.desc"
             class="cursor-pointer w-[100%] max-w-[100%] object-cover aspect-video"
             @click="clickImg(gallery, index)" />
